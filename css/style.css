@@ -412,7 +412,7 @@ footer h3::after {
 }
 
 @keyframes fotterTyping {
-    100%{
+    70%{
         left: 100%;
         margin: 0 0.5vw;
     }
