@@ -1,0 +1,430 @@
+* {
+    font-family: "Protest Riot", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    transition: 0.3s ease;
+}
+
+body {
+    background-color: #0D0D0D;
+}
+
+/* ------------------ NAV START ------------------ */
+
+.nav-con-all {
+    width: 100%;
+}
+
+.nav-con {
+    width: 100%;
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    margin-left: 5vw;
+    padding: 0.7vw 0.5vw;
+}
+
+.nav-logo ul {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.nav-logo ul a {
+    color: #fff;
+    margin-left: 1.4vw;
+    font-size: 0.8vw;
+}
+
+.nav-logo ul a:hover {
+    color: #969698;
+}
+
+.nav-btn {
+    margin-right: 5vw;
+    padding: 0.7vw 0.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn a {
+    color: #fff;
+    margin-right: 1.5vw;
+    font-size: 0.8vw;
+}
+
+.nav-btn button {
+    padding: 0.5vw 1.2vw;
+    border: none;
+    background-color: #6D7EEC;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 0.8vw;
+    cursor: pointer;
+}
+
+.nav-btn button:hover {
+    background-color: #8d9cff;
+}
+
+ul h4 {
+    margin-left: 0.5vw;
+    font-weight: normal;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+}
+
+ul img {
+    object-fit: contain;
+    width: 2.2vw;
+    height: 2.5vw;
+}
+
+/* ------------------ NAV END ------------------ */
+
+/* ------------------ HERO START ------------------ */
+
+.con-hero-all-all {
+    background-image: url(img/phone-bg.png);
+    background-position: center;
+    background-size: cover;
+    /* height: 110vh; */
+}
+
+.con-hero-all {
+    background-color: #0D0D0D;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.con-hero {
+    background-color: #0D0D0D;
+    text-align: center;
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+}
+
+.con-txt {
+    color: #fff;
+    padding: 0.2vw 1vw;
+    font-size: 2vw;
+    font-weight: 75;
+    letter-spacing: 0.2vw;
+}
+
+.txt-P {
+    color: #969698;
+    padding: 0.2vw 1vw;
+    font-size: 1vw;
+    font-weight: 75;
+    letter-spacing: 0.1vw;
+}
+
+.con-text3 {
+    margin-top: 1vw;
+}
+
+.con-hero-img {
+    margin-top: 5vw;
+}
+
+.con-hero-img img {
+    object-fit: contain;
+    width: 40vw;
+    height: 40vw;
+}
+
+/* ------------------ HERO END ------------------ */
+
+/* ------------------ MAIN START ------------------ */
+
+.con-main-all {
+    /* background-color: #0D0D0D; */
+    background-color: #0D0D0D;
+    width: 100%;
+    height: 150vh;
+    color: #fff;
+}
+
+.con-main {
+    width: 45%;
+    margin-top: 20vw;
+    margin-bottom: 0vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.con-main-text1 {
+    margin-bottom: 1.5vw;
+}
+
+.con-main-text1 h1 {
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+}
+
+.con-main-text2 {
+    margin-top: 0.5vw;
+}
+
+.con-main-text2 p {
+    font-size: 1vw;
+    color: #969698;
+    letter-spacing: 0.08vw;
+    padding: 0.1vw 0vw;
+}
+
+.con-main-btn {
+    margin-top: 2vw;
+}
+
+.con-main-btn button {
+    padding: 0.8vw 1.2vw;
+    border: none;
+    background-color: #6D7EEC;
+    border-radius: 28px;
+    color: #fff;
+    font-size: 1.1vw;
+    font-weight: normal;
+    cursor: pointer;
+}
+.con-main-btn button:hover {
+    background-color: #8d9cff;
+}
+
+/* ------------------ MAIN END ------------------ */
+
+/* ------------------ MAIN 2 START  ------------------ */
+
+.con-main2-all {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10vw;
+    /* height: 190vh; */
+}
+
+.con-info-main2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8vw;
+}
+
+/* .con-main2-left {
+}
+
+.con-main2-right {
+} */
+
+
+/* MAIN 2 BOX 1 START */
+
+.con-main2-right img {
+    border-radius: 28px;
+    width: 30vw;
+    object-fit: contain;
+}
+
+.con-main2-left i {
+    font-size: 1vw;
+    font-family: 600;
+    color: #6D7EEC;
+    cursor: pointer;
+}
+
+.con-main2-left h2 {
+    font-size: 1.8vw;
+    letter-spacing: 0.2vw;
+    padding: 0.3vw 0vw;
+}
+
+.con-left-text p {
+    color: #969698;
+    font-size: 0.8vw;
+    letter-spacing: 0.15vw;
+    line-height: 1.7vw;
+}
+
+.con-left-text a {
+    color: #6D7EEC;
+    font-size: 1vw;
+}
+
+.con-left-icon {
+    margin-top: 2vw;
+}
+
+.con-left-text {
+    margin-top: 1vw;
+}
+
+#iconMain2 {
+    font-size: 3vw;
+}
+
+.con-main2-icon {
+    margin-bottom: 2vw;
+}
+/* MAIN 2 BOX 2 START */
+
+.con-main2-left2 img {
+    border-radius: 28px;
+    width: 30vw;
+    object-fit: contain;
+    margin-left: 2vw;
+}
+
+.con-main2-right2 {
+    margin-right: 2vw;
+    margin-top: 3vw;
+}
+
+.con-main2-icon i {
+    font-size: 3vw;
+    font-family: 600;
+    color: #6D7EEC;
+    cursor: pointer;
+}
+
+.con-main2-text h2 {
+    font-size: 1.8vw;
+    letter-spacing: 0.2vw;
+    padding: 0.3vw 0vw;
+}
+
+.con-main2-text p {
+    color: #969698;
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+    line-height: 1.7vw;
+}
+
+.con-main2-text2  {
+    margin: 1vw 0vw;
+    margin-bottom: 2.5vw;
+}
+
+.con-main2-text-a a {
+    color: #6D7EEC;
+    font-size: 1vw;
+}
+
+#IconArrow-main2 {
+    margin-left: 0.5vw;
+}
+
+#IconArrow-main1 {
+    margin-left: 0.5vw;
+}
+
+/* MAIN 2 BOX 3 START */
+
+.con-main2-right3 img {
+    border-radius: 28px;
+    width: 30vw;
+    object-fit: contain;
+    margin-left: 2vw;
+}
+
+.con-main3-icon {
+    margin-top: 5vw;
+}
+
+/* MAIN - IMG CSS */
+#Main-img1 {
+    box-shadow: rgba(109, 126, 236, 0.1) 0px 8px 24px, rgba(109, 126, 236, 0.5) 0px 16px 56px, rgba(109, 126, 236, 0.1) 0px 24px 80px;
+    cursor: pointer;
+}
+
+#Main-img1:hover {
+    transform: rotate(3deg);
+}
+
+#Main-img2 {
+    box-shadow: rgba(109, 126, 236, 0.1) 0px 8px 24px, rgba(109, 126, 236, 0.5) 0px 16px 56px, rgba(109, 126, 236, 0.1) 0px 24px 80px;
+    cursor: pointer;
+}
+
+#Main-img2:hover {
+    transform: rotate(-3deg);
+}
+
+#Main-img3 {
+    box-shadow: rgba(109, 126, 236, 0.1) 0px 8px 24px, rgba(109, 126, 236, 0.5) 0px 16px 56px, rgba(109, 126, 236, 0.1) 0px 24px 80px;
+    cursor: pointer;
+}
+
+#Main-img3:hover {
+    transform: rotate(3deg);
+}
+/* MAIN - IMG CSS */
+
+/* ------------------ MAIN 2 END  ------------------ */
+
+/* ICON START */
+
+.con-icon {
+    text-align: center;
+    width: 25%;
+    /* height: 8vh; */
+    margin: 0 auto;
+}
+
+.con-icon a {
+    color: #fff;
+    font-size: 2.5vw;
+}
+
+.con-icon a:hover {
+    color: #969698;
+}
+
+/* ICON END */
+
+
+
+
+/* FOOTER START */
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-size: 0.8vw;
+    width: 25%;
+    /* height: 4vh; */
+    margin: 0 auto;
+}
+
+footer h3::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-color: #0D0D0D;
+    border-left: 2px solid #fff;
+    animation: fotterTyping 4s steps(40) infinite;
+}
+
+@keyframes fotterTyping {
+    100%{
+        left: 100%;
+        margin: 0 0.5vw;
+    }
+}
+
+footer h3 {
+    letter-spacing: 0.1vw;
+    position: relative;
+}
+
+footer i {
+    margin-left: 0.5vw;
+}
+
+/* FOOTER END */
